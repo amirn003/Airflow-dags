@@ -1,6 +1,6 @@
 # Airflow-dags
 
-To submit a DAG
+To submit a DAG (Directed Acyclic Graph)
 
 1. Open a terminal:
 ```
