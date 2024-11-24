@@ -85,9 +85,9 @@ default_args = {
 
 # Define the DAG
 dag = DAG(
-    'my-first-python-etl-dag',
+    'etl-server-access-dag',
     default_args=default_args,
-    description='My first DAG',
+    description='ETL Server Access DAG',
     schedule_interval=timedelta(days=1),
 )
 
