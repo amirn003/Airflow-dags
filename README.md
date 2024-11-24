@@ -8,14 +8,14 @@ export AIRFLOW_HOME=/home/project/airflow
 echo $AIRFLOW_HOME
 cp my_first_dag.py $AIRFLOW_HOME/dags
 ```  
-
+<br>
 
 3. Verify that your DAG has been submitted:
 ```
 airflow dags list
 airflow dags list|grep "my-first-python-etl-dag"
 ```  
-
+<br>
 
 3. List out all the tasks in 'my-first-python-etl':
 ```
