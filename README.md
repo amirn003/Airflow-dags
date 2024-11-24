@@ -23,3 +23,8 @@ airflow tasks list my-first-python-etl-dag
 ```
 <br>
 
+4. If the DAG didn't get imported properly:
+```
+airflow dags list-import-errors
+```
+<br>
