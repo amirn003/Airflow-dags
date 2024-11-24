@@ -61,9 +61,9 @@ def check():
 
 # You can override them on a per-task basis during operator initialization
 default_args = {
-    'owner': 'Your name',
+    'owner': 'Amir',
     'start_date': days_ago(0),
-    'email': ['your email'],
+    'email': ['amir.naar.pro@gmail.com'],
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
 }
