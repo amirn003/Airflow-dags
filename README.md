@@ -1,6 +1,6 @@
 # Airflow-dags
 
-To submit a DAG (Directed Acyclic Graph)
+To submit a DAG (Directed Acyclic Graph):
 
 1. Open a terminal:
 ```
@@ -10,7 +10,7 @@ cp my_first_dag.py $AIRFLOW_HOME/dags
 ```  
 <br>
 
-3. Verify that your DAG has been submitted:
+2. Verify that your DAG has been submitted:
 ```
 airflow dags list
 airflow dags list|grep "my-first-python-etl-dag"
